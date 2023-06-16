@@ -1,0 +1,47 @@
+body {
+  background-color: lightgrey;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  color: white;
+  font-size: 7vw;
+}
+
+/* MAIN */
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dice {
+  height: 25vw;
+  border-radius: 10px;
+}
+
+/* CONTROLS */
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.roll-dice {
+  width: 25vw;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.roll-dice:hover {
+  background-color: black;
+  color: white;
+}
